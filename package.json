@@ -42,7 +42,8 @@
     "style-loader": "^3.3.1",
     "webpack": "^5.76.0",
     "webpack-cli": "^5.0.1",
-    "webpack-dev-server": "^4.11.1"
+    "webpack-dev-server": "^4.11.1",
+    "gh-pages": "^5.0.0"
   },
   "dependencies": {
     "@loadable/component": "^5.15.3",
