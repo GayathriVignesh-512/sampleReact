@@ -7,6 +7,10 @@ import { Home } from '../pages/Home'
 import { NotFound } from '../pages/NotFound'
 // const Home = loadable(() => import('../pages/Home'))
 
+// "test": "echo \"Error: no test specified\" && exit 1",
+// "start": "webpack serve --config webpack.config.js --mode development",
+// "build": "webpack --config webpack.config.js --mode production",
+
 class RoutesClass extends React.Component {
   render() {
     return (
