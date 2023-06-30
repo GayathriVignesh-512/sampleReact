@@ -17,7 +17,7 @@ class Home extends React.Component {
           />
           <Carousel.Caption>
             <h3>{Object.keys(resumeData)[i]}</h3>
-            <p>{Object.entries(resumeData)[i]}</p>
+            <p>{Object.values(resumeData)[i]}</p>
           </Carousel.Caption>
         </Carousel.Item>
       )
@@ -37,7 +37,7 @@ class Home extends React.Component {
       itemValue.push(
         <Accordion.Item eventKey={i}>
           <Accordion.Header>{Object.keys(resumeData)[i]}</Accordion.Header>
-          <Accordion.Body>{Object.entries(resumeData)[i]}</Accordion.Body>
+          <Accordion.Body>{Object.values(resumeData)[i]}</Accordion.Body>
         </Accordion.Item>
       )
     }
@@ -75,14 +75,6 @@ class Home extends React.Component {
       <div className="home-block">
         <div className="carousel-block">{this.carouselBlock()}</div>
         <div className="accordion-block">{this.accordionBlock()}</div>
-        <div className="text-center p-3 m-3">
-          <Link to="/vignesh">
-            <img
-              src="https://name.vukki.net/meaning/image/0-0-0-0-0-0-0/vignesh.jpg"
-              alt="Vignesh"
-            />
-          </Link>
-        </div>
       </div>
     )
   }
