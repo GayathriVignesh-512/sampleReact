@@ -20,6 +20,7 @@ class RoutesClass extends React.Component {
           <div>
             <Routes>
               <Route exact path="/home" element={<Home />} />
+              <Route exact path="/sampleReact" element={<Home />} />
               <Route exact path="/notfound" element={<NotFound />} />
               <Route exact path="/" element={<Home />} />
               <Route path="*" element={<NotFound />} />
